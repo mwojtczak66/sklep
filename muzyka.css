@@ -1,0 +1,29 @@
+#baner {
+	width: 100%;
+	height: 20%;
+	font-size: 200%;
+	background-color: #812F8D;
+	color: white; 
+	text-align: center;
+	display: inline-block;
+}
+
+#leftpanel {
+	background-color: #BB74C4;
+	color: white;
+	width: 25%;
+	height: 80%;
+	float: left;
+}
+
+#rightpanel {
+	width: 75%;
+}
+
+h2 {
+	text-align: center;
+}
+
+form {
+	margin: 20px;
+}
