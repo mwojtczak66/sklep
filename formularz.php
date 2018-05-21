@@ -4,7 +4,7 @@
 	<meta name="Sklep muzyczny">
 	<link rel="stylesheet" href="muzyka.css">
  </head>
- 
+
  <body>
  <div id="main">
 	<div id="baner">
@@ -16,7 +16,7 @@
 			<li>Instrumenty muzyczne</ul>
 			<li>Sprzęt audio</ul>
 			<li>Płyty CD</ul>
-		<ol>	
+		<ol>
 	</div>
 </div>
  </body>
@@ -30,10 +30,10 @@ $nazwisko = $_POST["lastname"];
 $adres = $_POST["adress"];
 $telefon = $_POST["phone"];
 $login = $_POST["username"];
-$haslo = $_POST["password"];	
+$haslo = $_POST["password"];
 
   	$osobowe = "INSERT INTO uzytkownicy (imie, nazwisko, adres, telefon) VALUES ('$imie', '$nazwisko', '$adres', '$telefon')";
-	$logowania = "INSERT INTO konta (login, haslo) VALUES ('$login', '$haslo')";
+	  $logowania = "INSERT INTO konta (login, haslo) VALUES ('$login', '$haslo')";
   	mysqli_query($db, $osobowe);
   	mysqli_query($db, $logowania);
 
